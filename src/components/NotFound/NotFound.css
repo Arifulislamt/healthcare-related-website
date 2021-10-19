@@ -1,0 +1,12 @@
+.not-custom{
+    background-color: #031d1d;
+}
+.custom-img img{
+    width: 250px;
+}
+.custom-hover{
+    color: white;
+}
+.custom-hover:hover{
+    color: #bb1903;
+}

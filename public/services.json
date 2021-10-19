@@ -1,0 +1,43 @@
+[
+    {
+       "id":1,
+       "name":"Cancer Services",
+       "images":"https://i.ibb.co/WfPMwF0/services3.jpg",
+       "details":"Find Cancer Treatment In Usa. Large Selection. Always Sale. Cheap Prices. Full Offer. Save Online. Compare Online. Simple Search. The Best Price. Compare Simply. Services: Compare, Search, Find Products, Many Offers."
+    },
+    {
+       "id":2,
+       "name":"Liver Transplant",
+       "images":"https://i.ibb.co/MN1C6nK/services1.jpg",
+       "details":"A liver transplant is surgery to replace a diseased liver with a healthy liver from another person. A whole liver may be transplanted, or just part of one. In most cases the healthy liver will come from an organ donor who has just died. Sometimes a healthy living person will donate part of their liver."
+    },
+    {
+       "id":3,
+       "name":"Kidney Cancer",
+       "images":"https://i.ibb.co/gFDp72q/services2.jpg",
+       "details":"Kidney cancer is most often treated with surgery, targeted therapy, immunotherapy, or a combination of these treatments. Radiation therapy and chemotherapy are occasionally used. People with kidney cancer that has spread, called metastatic cancer (see below), often receive multiple lines of therapy."
+    },
+    {
+       "id":4,
+       "name":"Radiation Oncology",
+       "images":"https://i.ibb.co/Zfz3FTC/MRI-machine-magnetic-resonance-imaging-machine-on-a-dark-blue-background-Concept-medicine-technology.jpg",
+       "details":"Radiation therapy or radiotherapy, often abbreviated RT, RTx, or XRT, is a therapy using ionizing radiation, generally provided as part of cancer treatment to control or kill malignant cells and normally delivered by a linear accelerator"
+    },
+    {
+       "id":5,
+       "name":"Cardiac Arrhythmia",
+       "images":"https://i.ibb.co/yQGWNH4/services5.jpg",
+       "details":"Therapies to treat heart arrhythmias include vagal maneuvers and cardioversion to stop the irregular heartbeat. Vagal maneuvers. If you have a very fast heartbeat due to supraventricular tachycardia, your doctor may recommend this therapy."
+    },
+    {
+       "id":6,
+       "name":"Dental Services",
+       "images":"https://i.ibb.co/1XtYcDm/services6.jpg",
+       "details":"A dental therapist is a member of the dental team who provides preventive and restorative dental care for children and adults. The precise role varies and is dependent on the therapist's education and the various dental regulations and guidelines of each country."
+    }
+ ]
+
+
+
+
+

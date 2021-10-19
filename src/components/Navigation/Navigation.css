@@ -1,0 +1,12 @@
+.custom-nv{
+    background-color: #9fecc0;
+}
+.log{
+    list-style: none;
+    font-weight: bold;
+
+}
+.log a{
+    text-decoration: none;
+    font-weight: bold;
+}

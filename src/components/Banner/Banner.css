@@ -1,0 +1,14 @@
+.title p{
+    color: black;
+    font-weight: bold;
+}
+.title h1 {
+    color: black;
+    font-weight: bold;
+}
+.title h5 {
+    color: black;
+}
+.custom {
+    color: greenyellow;
+}

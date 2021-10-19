@@ -1,0 +1,21 @@
+[
+    {
+
+    "id":1,
+    "name":"250+ Medical Tips We Just Had to Share",
+    "images":"https://i.ibb.co/H7kS920/laboratory-gbd2143d19-1280.jpg",
+    "details":" Lorem ipsum dolor sit amet, constetur adipiscing elit, sed do eiusmod tempor incididunt. "
+ },
+ {
+    "id":2,
+    "name":"12 Ways You Can Cut Your Prescription sed",
+    "images":"https://i.ibb.co/HpXfq9h/stethoscope-g2b853ec8c-1280.jpg",
+    "details":"Lorem ipsum dolor sit amet, constetur adipiscing elit, sed do eiusmod tempor incididunt . "
+ },
+ {
+    "id":3,
+    "name":"10 Tips to Live Better With Psoriatic Arthritis",
+    "images":"https://i.ibb.co/nn0F0dT/dentist-gf91253785-1280.jpg",
+    "details":"Lorem ipsum dolor sit amet, constetur adipiscing elit, "
+ }
+]

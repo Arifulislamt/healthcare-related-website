@@ -1,0 +1,15 @@
+.titles h1{
+    color: #19CE67;
+    font-weight: bold;
+}
+.titles p {
+    font-weight: bold;
+}
+.titles{
+    margin-top: 200px;
+}
+.titles hr{
+    margin-right: 350px;
+    margin-left: 350px;
+    color: #19CE67;
+}
