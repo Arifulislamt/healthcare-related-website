@@ -1,11 +1,26 @@
 import React, { useState } from 'react';
+import { useHistory, useLocation } from 'react-router';
 import useAuth from '../../Hooks/useAuth';
 import image from '../../images/Login-pana.png';
 
 const Login = () => {
     const { signInUsingGoogle,handleUserRegister,handleUserLogin, } = useAuth();
+
+    
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/home';
+    
+
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+
+    const handleGoogleLogin = () => {
+        signInUsingGoogle()
+        .then(result => {
+            history.push(redirect_uri);
+        })
+    }
 
 
     const handleEmail = (e) => {
@@ -46,7 +61,7 @@ const Login = () => {
                 <button onClick={handleLogin} type="submit" className="btn btn-primary">Login</button>
             </div>
             <div className="mt-5 text-center">
-            <button onClick={signInUsingGoogle} className="btn btn-success"><span className="text-warning"><i className="fab fa-google"></i></span> Google Sign In</button>
+            <button onClick={handleGoogleLogin} className="btn btn-success"><span className="text-warning"><i className="fab fa-google"></i></span> Google Sign In</button>
             </div>
                 </div>
                 <div className="col-md-6">
