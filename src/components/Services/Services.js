@@ -14,7 +14,7 @@ const Services = () => {
 
 
     useEffect(()=> {
-        const details = services.find(td => td.id == id )
+        const details = services?.find(td => td.id == id )
         setTotalDetail(details);
     },[services])
 
@@ -26,12 +26,12 @@ const Services = () => {
         <div>
             <div className="bag-img d-flex justify-content-center align-items-center">
                 <div>
-                    <h1 className="text-white fw-bold">Our Services </h1>
+                    <h1 className="text-white fw-bold">Our Service </h1>
                 </div>
             </div>
             <div className="container mt-5">
                 <div className="card mb-3">
-                    <img src={totalDetail.img} className="card-img-top" alt="..." />
+                    <img src={totalDetail?.img}className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text"></p>
