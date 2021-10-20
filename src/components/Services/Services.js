@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
+
+
 const Services = () => {
-    const { id } = useParams();
+    const { userId} = useParams();
     // console.log(serviceId);
     const [services, setServices] = useState([]);
     const [totalDetail, setTotalDetail] = useState([])
@@ -14,7 +16,7 @@ const Services = () => {
 
 
     useEffect(()=> {
-        const details = services?.find(td => td.id == id )
+        const details = services?.find(td => td.id == userId )
         setTotalDetail(details);
     },[services])
 
@@ -31,9 +33,9 @@ const Services = () => {
             </div>
             <div className="container mt-5">
                 <div className="card mb-3">
-                    <img src={totalDetail?.img}className="card-img-top" alt="..." />
+                    <img src={totalDetail?.images}className="card-img-top" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
+                        <h5 className="card-title">{totalDetail?.details}</h5>
                         <p className="card-text"></p>
                         <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                     </div>
